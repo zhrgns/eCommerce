@@ -1,0 +1,5 @@
+`docker build -t ecommerce/demoapp:01 .`
+
+`docker run -p 9090:8080 ecommerce/demoapp:01`
+
+`docker stop fervent_wing`
